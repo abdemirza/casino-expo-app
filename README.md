@@ -7,7 +7,7 @@ https://expo.dev/@abdemirza/casino-expo-app-js
 
 Game Rules :
 
-  - Popup has 3 slots in the content part and 3 buttons in the button pane
+  - Popup has 3 slots in the content part and 3 buttons in the button panel
 
   - When the user presses the first button - random symbols ♠, ♥, ♦, ♣ are displayed in slots
 
