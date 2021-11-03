@@ -49,7 +49,7 @@ const Header = ({ page }: { page: string }) => {
           padding: 5,
         }}
       >
-        <Title style={{ color: "#fff" }}>Abuzar Mirza</Title>
+        <Title style={{ color: "#fff" }}>{isLoggedIn?user.username:"Guest"}</Title>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
           <Button color="#fff">${balance.toFixed(2)}</Button>
           <Ionicons color="#fff" name="person" size={20} />
